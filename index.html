@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+                <li>
+                    <a href="#summary">Summary</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#code-example">Code Example</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#english-level">English level</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Tatiana Kuznetsova</h1>
+    </header>
+
+    <main class="main-container">
+
+        <section id="contacts">
+        <div>
+            <h2>Contacts</h2>
+            <ul>
+                <li><b>Phone number: </b>+375 29 997 32 16</li>
+                <li><b>Email: </b>tatyanapetrosh@gmail.com</li>
+            </ul>   
+        </div>
+        </section>
+       
+        <section id="summary">
+            <h2>Summary</h2>
+            <div>
+            <p>
+                I like to develop as a front end specialist, to get a lot of experience and perform interesting tasks. I am not afraid of complex tasks.
+                I want to become a full stack developer, so i study and improve my skills all the time.
+                I am responsible, hard-working, quick learner and determined person with ability to work efficiently both individually and in a team.
+            </p> 
+            <p>
+                I used to work as a media planner for an advertising company “Target Production” in Bishkek, Kyrgyzstan.
+            </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div>
+            <ul>
+                <li>OOP (Basic knowledge)</li>
+                <li>HTML/CSS/JS/C++ (Basic knowledge)</li>
+                <li>MatLab (Basic knowledge)</li>
+                <li>Git, VSCode, VS 2019</li>
+            </ul>
+            </div>
+        </section>
+
+        <section id="code-example">
+            <h2>Code Example</h2>
+            <div>
+                <pre>
+                <code>
+                    let isAnagram = function(test, original) {
+                        let lowerTest = test.toLowerCase();
+                        let lowerOriginal = original.toLowerCase();
+                        let arrayOfLowerTest = lowerTest.split('');
+                        let arrayOfLowerOriginal = lowerOriginal.split('');
+                      
+                        let sortedStrTest = arrayOfLowerTest.sort().join();
+                        let sortedStrOriginal = arrayOfLowerOriginal.sort().join();
+                        
+                        if (sortedStrTest == sortedStrOriginal) {
+                          return true;
+                        } else {
+                          return false;
+                        }
+                      };
+                </code>
+                </pre>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div>
+            <ul>
+                <li>Course “Programming in c++” (2010)</li>
+                <li>Kyrgyz-Russian Slavic University / Natural and Technical Sciences / Physicist (2016)</li>
+                <li>General English Course at Pre-Intermediate level (CEFR A2+) (2021)</li>
+            </ul>
+            </div>
+        </section>
+
+        <section id="english-level">
+            <h2>English level</h2>
+            <div>
+            <span>A2+</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <ul>
+            <li><a href="https://github.com/Tatiana-312">GitHub</a></li>
+            <li>2021</li>
+        </ul>  
+            <a href="https://rs.school/js/"><img class="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="logo RSS"></a>
+    </footer>
+</body>
+</html>
