@@ -1,0 +1,89 @@
+.header-title {
+background-color: rgb(13,130,227);
+color: white;
+margin: 0;
+margin-left: auto;
+margin-right: auto;
+padding: 30px 10px;
+font-family: Arial, Helvetica, sans-serif;
+width: 900px;
+
+}
+
+.body {
+    background-color: whitesmoke;
+}
+
+.main-header {
+    background-color: rgb(13,130,227);
+}
+
+.header-menu {
+    padding: 10px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background-color: rgb(21, 70, 110);
+}
+
+.header-menu li {
+    display: inline;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-container {
+    background-color: rgb(13,130,227);
+}
+
+.footer-menu li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rs-logo {
+    width: 64px;
+    height: auto;
+}
+
+
+.section-block {
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-title {
+    color: rgb(13,130,227);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-text {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-list {
+    margin: 0;
+    padding: 30px;
+}
+
+.section-list li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-code {
+    font-family: Arial, Helvetica, sans-serif;
+}
