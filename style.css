@@ -1,37 +1,37 @@
-.header-title {
-background-color: rgb(13,130,227);
-color: white;
-margin: 0;
-margin-left: auto;
-margin-right: auto;
-padding: 30px 10px;
-font-family: Arial, Helvetica, sans-serif;
-width: 900px;
-
-}
-
 .body {
-    background-color: whitesmoke;
+    margin: auto;
+    background-color: whitesmoke;  
 }
 
-.main-header {
-    background-color: rgb(13,130,227);
+.header {
+    padding: 10px 0px;
+    background-color: rgb(16,181,124); 
+}
+
+.header-title {
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 10px;
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(16,181,124); 
 }
 
 .header-menu {
     padding: 10px;
-    margin: 0;
+    margin: 0px;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-    background-color: rgb(21, 70, 110);
+    background-color: rgb(16,181,124);
 }
 
 .header-menu li {
     display: inline;
-    padding: 0 15px;
+    padding: 0px 30px 0px 0px;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 .nav-link {
@@ -39,51 +39,116 @@ width: 900px;
     color: white;
 }
 
-.footer-container {
-    background-color: rgb(13,130,227);
-}
-
-.footer-menu li {
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.rs-logo {
-    width: 64px;
-    height: auto;
-}
-
-
-.section-block {
-    background-color: white;
-    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-    width: 900px;
+.section-container {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    width: 900px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px rgba(221, 221, 221, 1); 
+}
 
+.main-photo {
+    margin-bottom: -4px;
+    height: auto;
+    width: 300px;
+}
+
+.contacts-container {
+    float: right;
+    padding: 30px;
+    width: 500px;
+}
+
+.contacts-title {
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(16,181,124);
+    width: 300px;
+    border-bottom: 1px solid;
+}
+
+.contacts-list {
+    margin: 0px;
+    padding: 10px 30px;
+    list-style: none;
+}
+
+.contacts-list li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.fa { color: rgb(16,181,124); }
+
+.contacts-link {
+    color: black;
+    text-decoration: none;
 }
 
 .section-title {
-    color: rgb(13,130,227);
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(16,181,124);
+    text-align: center;
+}
+
+.section-container-paddings {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 30px;
+    width: 840px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px rgba(221, 221, 221, 1);
 }
 
 .section-text {
-    margin: 0;
-    padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .section-list {
-    margin: 0;
-    padding: 30px;
+    margin: 16px 0px;
+    padding: 0px 15px;
 }
 
 .section-list li {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
 }
+
+.code { margin: 0px; }
 
 .section-code {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer-menu {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(16,181,124);
+    text-align: center;
+}
+  
+  .footer-menu li {
+      display: inline;
+      padding: 0px 60px 0px 0px;
+      font-family: Arial, Helvetica, sans-serif;  
+}
+  
+  .git-logo {
+      width: 44px;
+      height: auto;
+}
+  
+  .rs-logo {
+      width: 64px;
+      height: auto;
 }
