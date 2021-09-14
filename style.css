@@ -1,90 +1,98 @@
+* {box-sizing: border-box;}
+
 html {scroll-behavior: smooth;}
 
 .body {
-    margin: auto;
-    background-color: whitesmoke;  
+    margin: 0;
+    background-color: rgb(59, 59, 59);  
 }
 
 .header {
-    padding: 10px 0px;
-    background-color: rgb(16,181,124); 
+    background-color: rgb(240,174,18); 
+}
+
+.header-container {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1000px;
 }
 
 .header-title {
     margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 10px;
-    width: 900px;
+    padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: white;
-    background-color: rgb(16,181,124); 
+    color: black;
 }
 
 .header-menu {
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px; 
     margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
-    background-color: rgb(16,181,124);
 }
 
 .header-menu li {
     display: inline;
-    padding: 0px 30px 0px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     letter-spacing: 1px;
 }
 
 .nav-link {
     text-decoration: none;
-    color: white;
+    color: black;
     transition: 0.5s;
 }
 
 .nav-link:hover {
-    color: rgb(0, 0, 0, 0.8);
+    color: rgb(124, 2, 2);
+}
+
+.section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    width: 900px;
-    background-color: white;
-    box-shadow: 0px 0px 10px 5px rgb(16,181,124, 0.3); 
+    margin: 20px 0;
+    padding: 30px;
+    background-color: floralwhite;
+    box-shadow: 0px 0px 10px 5px rgba(240, 174, 18, 0.2);
+}
+
+.section-contacts-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-photo {
-    margin-bottom: -4px;
-    height: auto;
-    width: 300px;
+    width: 250px;
+    margin-right: 153px;
 }
 
 .contacts-container {
-    float: right;
-    padding: 30px;
-    padding-right: 47px;
-    width: 500px;
+    margin: auto 0;
 }
 
 .contacts-title {
-    padding: 20px 30px;
-    padding-top: 10px;
+    margin: 0;
+    margin-top: 20px;
+    padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: rgb(16,181,124);
-    width: 300px;
+    color: rgb(240,174,18);
     border-bottom: 1px solid;
 }
 
 .contacts-list {
-    margin: 0px;
-    padding: 10px 30px;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
     list-style: none;
 }
 
@@ -95,7 +103,7 @@ html {scroll-behavior: smooth;}
     line-height: 36px;
 }
 
-.fa { color: rgb(16,181,124); }
+.fa { color: rgb(240,174,18); }
 
 .contacts-link {
     color: black;
@@ -106,18 +114,8 @@ html {scroll-behavior: smooth;}
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: rgb(16,181,124);
+    color: rgb(240,174,18);
     text-align: center;
-}
-
-.section-container-paddings {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    padding: 30px;
-    width: 840px;
-    background-color: white;
-    box-shadow: 0px 0px 10px 5px rgb(16,181,124, 0.3);
 }
 
 .section-text {
@@ -130,15 +128,20 @@ html {scroll-behavior: smooth;}
 .section-list {
     margin: 16px 0px;
     padding: 0px 15px;
+    list-style: none;
 }
 
 .section-list li {
+    color: rgb(240,174,18);
+}
+
+.text {
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-size: 16px;
     line-height: 26px;
 }
-
 .code { margin: 0px; }
 
 .section-code {
@@ -148,18 +151,25 @@ html {scroll-behavior: smooth;}
     line-height: 26px;
 }
 
+.footer {
+    background-color: rgb(240,174,18);
+}
+
+.footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .footer-menu {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: rgb(16,181,124);
-    text-align: center;
+    margin: 0;
+    padding: 30px 0;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
 }
   
   .footer-menu li {
       display: inline;
-      padding: 0px 60px 0px 0px;
       font-family: Arial, Helvetica, sans-serif;  
       letter-spacing: 1px;
 }

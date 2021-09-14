@@ -7,42 +7,47 @@
     <title>CV-Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/default.min.css">
+    <script src="scripts/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </head>
 <body class="body">
     <header class="header">
-        <h1 class="header-title">Tatiana Kuznetsova</h1>
-        <nav>
-            <ul class="header-menu">
-                <li>
-                    <a class="nav-link" href="#contacts">Contacts</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#summary">Summary</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#code-example">Code Example</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#english-level">English</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <h1 class="header-title">Tatiana Kuznetsova</h1>
+            <nav>
+                <ul class="header-menu">
+                    <li>
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#summary">Summary</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#code-example">Code Example</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#english-level">English</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="contacts">
-            <div class="section-container">
+        <section class="section" id="contacts">
+            <div class="section-container section-contacts-container">
                 <img class="main-photo" src="img/profile.PNG" alt="my photo">
                 <div class="contacts-container">
                     <h2 class="contacts-title">Contacts</h2>
                     <ul class="contacts-list">
-                        <li><i class="fa fa-phone-square"></i><b> Phone number: </b>+375 29 997 32 16</li>
+                        <li><i class="fa fa-phone-square"></i><b> Phone number: </b>+375(29)9973216</li>
                         <li><i class="fa fa-envelope"></i><b> Email: </b>tatyanapetrosh@gmail.com</li>
                         <li>
                             <i class="fa fa-github"></i><b> Github: </b>
@@ -55,9 +60,9 @@
             </div>
         </section>
        
-        <section id="summary">
+        <section class="section" id="summary">
             <h2 class="section-title">Summary</h2>
-            <div class="section-container-paddings">
+            <div class="section-container">
                 <p class="section-text">
                     I like to develop as a front-end specialist, to get a lot of experience and perform interesting tasks. I am
                     not afraid of complex tasks.
@@ -71,22 +76,22 @@
             </div>
         </section>
 
-        <section id="skills">
+        <section class="section" id="skills">
             <h2 class="section-title">Skills</h2>
-            <div class="section-container-paddings">
+            <div class="section-container">
                 <ul class="section-list">
-                    <li>OOP (Basic knowledge)</li>
-                    <li>HTML/CSS/JS/C++ (Basic knowledge)</li>
-                    <li>MatLab (Basic knowledge)</li>
-                    <li>Git, VSCode, VS 2019</li>
+                    <li><i class="fa fa-check-square"></i><span class="text"> OOP (Basic knowledge)</span></li>
+                    <li><i class="fa fa-check-square"></i><span class="text"> HTML/CSS/JS/C++ (Basic knowledge)</span></li>
+                    <li><i class="fa fa-check-square"></i><span class="text"> MatLab (Basic knowledge)</span></li>
+                    <li><i class="fa fa-check-square"></i><span class="text"> Git, VSCode, VS 2019, Figma</span></li>
                 </ul>
             </div>
         </section>
 
-        <section id="code-example">
+        <section class="section" id="code-example">
             <h2 class="section-title">Code Example</h2>
             <h3 class="section-title">Codewars 3.7</h3>
-            <div class="section-container-paddings">
+            <div class="section-container">
                 <pre class="code">
                 <code class="section-code">
                     let isAnagram = function(test, original) {
@@ -109,32 +114,35 @@
             </div>
         </section>
 
-        <section id="education">
+        <section class="section" id="education">
             <h2 class="section-title">Education</h2>
-            <div class="section-container-paddings">
+            <div class="section-container">
                 <ul class="section-list">
-                    <li>Course “Programming in C++” (2010)</li>
-                    <li>Kyrgyz-Russian Slavic University / Natural and Technical Sciences / Physicist (2016)</li>
-                    <li>General English Course at Pre-Intermediate level (CEFR A2+) (2021)</li>
+                    <li><i class="fa fa-code"></i><span class="text"> Course “Programming in C++” (2010)</span></li>
+                    <li><i class="fa fa-graduation-cap"></i><span class="text"> Kyrgyz-Russian Slavic University / Natural and Technical Sciences / Physicist (2016)</span></li>
+                    <li><i class="fa fa-book"></i><span class="text"> General English Course at Pre-Intermediate level (CEFR A2+) (2021)</span></li>
                 </ul>
             </div>
         </section>
 
-        <section id="english-level">
+        <section class="section" id="english-level">
             <h2 class="section-title">English level</h2>
-            <div class="section-container-paddings">
+            <div class="section-container">
                 <p class="section-text">A2+</p>
             </div>
         </section>
     </main>
 
-    <footer class="footer-container">
-        <ul class="footer-menu">
-            <li><a href="https://github.com/Tatiana-312"><img class="git-logo" src="img/github.png" alt="logo Git"></a></li>
-            <li>2021</li>
-            <li><a href="https://rs.school/js/"><img class="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="logo RSS"></a></li>
-        </ul>  
-            
+    <footer class="footer">
+        <div class="footer-container">
+            <ul class="footer-menu">
+                <li><a href="https://github.com/Tatiana-312"><img class="git-logo" src="img/github.png" alt="logo Git"></a>
+                </li>
+                <li>2021</li>
+                <li><a href="https://rs.school/js/"><img class="rs-logo" src="https://rs.school/images/rs_school_js.svg"
+                            alt="logo RSS"></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
