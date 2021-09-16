@@ -37,6 +37,11 @@ html {scroll-behavior: smooth;}
     display: none;
     
 }
+
+.burger-menu-button:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(267deg) brightness(102%) contrast(106%);
+}
+
 .header-menu {
     display: flex;
     justify-content: space-between;
@@ -45,7 +50,7 @@ html {scroll-behavior: smooth;}
     margin: 0px;
 }
 
-@media (max-width:600px){
+@media (max-width: 700px){
     .header-menu{display:none;}
     .show{
         display: block;
@@ -56,9 +61,7 @@ html {scroll-behavior: smooth;}
         transition: 0.5s;
         }
 
-        .burger-menu-button:hover {
-            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(267deg) brightness(102%) contrast(106%);
-        }
+        
 }
 
 .header-menu li {
@@ -96,9 +99,54 @@ html {scroll-behavior: smooth;}
     flex-wrap: wrap;
 }
 
-.main-photo {
+.section-projects-containers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projects-description {
+    width: 300px;
+}
+.projects-title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(240,174,18);
+    text-align: center;
+}
+
+.projects-ref {
+    display: flex;
+    align-items: center;
+}
+
+.projects-img {
     width: 250px;
-    margin-right: 153px;
+}
+
+.technologies-list {
+    padding: 0;
+}
+
+.technologies-list li {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    margin-right: 150px;
+}
+
+.main-photo {
+    display: block;
+    width: 250px;
 }
 
 .contacts-container {
@@ -112,12 +160,13 @@ html {scroll-behavior: smooth;}
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: rgb(240,174,18);
-    border-bottom: 1px solid;
+    color: black;
+    border-bottom: 1px solid rgb(240,174,18);
 }
 
 .contacts-list {
     margin: 0;
+    margin-bottom: 20px;
     padding: 0;
     padding-top: 20px;
     list-style: none;

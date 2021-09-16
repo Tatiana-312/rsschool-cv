@@ -1,9 +1,5 @@
 let burgerButton = document.querySelector('.burger-menu-button');
 let menuUl = document.querySelector('.header-menu');
 
-burgerButton.onclick = function() {open()};
+burgerButton.addEventListener('click', () => menuUl.classList.toggle("show"));
 
-
-function open() {
-    menuUl.classList.toggle("show");
-}
