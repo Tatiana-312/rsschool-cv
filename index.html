@@ -158,24 +158,24 @@
         <section class="section" id="code-example">
             <h2 class="section-title">Code Example</h2>
             <h3 class="section-title">Codewars 3.7</h3>
-            <div class="section-container">
+            <div class="section-container section-container-code">
                 <pre class="code">
                 <code class="section-code">
-                    let isAnagram = function(test, original) {
-                        let lowerTest = test.toLowerCase();
-                        let lowerOriginal = original.toLowerCase();
-                        let arrayOfLowerTest = lowerTest.split('');
-                        let arrayOfLowerOriginal = lowerOriginal.split('');
+let isAnagram = function(test, original) {
+    let lowerTest = test.toLowerCase();
+    let lowerOriginal = original.toLowerCase();
+    let arrayOfLowerTest = lowerTest.split('');
+    let arrayOfLowerOriginal = lowerOriginal.split('');
                       
-                        let sortedStrTest = arrayOfLowerTest.sort().join();
-                        let sortedStrOriginal = arrayOfLowerOriginal.sort().join();
+    let sortedStrTest = arrayOfLowerTest.sort().join();
+    let sortedStrOriginal = arrayOfLowerOriginal.sort().join();
                         
-                        if (sortedStrTest == sortedStrOriginal) {
-                          return true;
-                        } else {
-                          return false;
-                        }
-                    };
+    if (sortedStrTest == sortedStrOriginal) {
+        return true;
+    } else {
+        return false;
+    }
+};
                 </code>
                 </pre>
             </div>

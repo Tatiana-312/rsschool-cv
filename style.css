@@ -59,9 +59,7 @@ html {scroll-behavior: smooth;}
         cursor: pointer;
         display: block;
         transition: 0.5s;
-        }
-
-        
+        }       
 }
 
 .header-menu li {
@@ -225,6 +223,23 @@ figure {
     letter-spacing: 1px;
     font-size: 16px;
     line-height: 26px;
+}
+
+@media (max-width: 600px){
+    .section-code { font-size: 14px; }
+    .section-container-code { padding: 0; }
+}
+
+@media (max-width: 480px){
+    .section-code { font-size: 12px; }
+}
+
+@media (max-width: 425px){
+    .section-code { font-size: 10px; }
+}
+
+@media (max-width: 370px){
+    .section-code { font-size: 8px; }
 }
 
 .footer {
