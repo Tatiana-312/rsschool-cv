@@ -3,7 +3,9 @@
 ## Personal Information
 
 **Phone number:** +375 29 997 32 16
+
 **Email:** tatyanapetrosh@gmail.com
+
 **GitHub:** https://github.com/Tatiana-312
 
 ## Summary
@@ -20,7 +22,10 @@ I used to work as a media planner for an advertising company "Target Production"
 - HTML/CSS/JS/C++ (Basic knowledge)
 - MatLab (Basic knowledge)
 - Git, VSCode, VS 2019
-
+- DOM
+- Flexbox, Grid
+- Figma
+- SASS, SCSS
 ## Code Example
 
 ```
@@ -47,9 +52,12 @@ var isAnagram = function(test, original) {
 
 - Course "Programming in c++" (2010)
 - Kyrgyz-Russian Slavic University / Natural and Technical Sciences (2016)
-- General English Course at Pre-Intermediate level (CEFR A2+) (2021)
+- Streamline, General English Course at Pre-Intermediate level (CEFR A2+) (2021)
+- THE ROLLING SCOPES SCHOOL, JS/FE PRE-SCHOOL (JAVASCRIPT) (2021)
+- I continue improve my English to B1 in Streamline School
+
 
 ## English level
 
-A2+
+B1
 
