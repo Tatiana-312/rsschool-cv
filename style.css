@@ -1,0 +1,276 @@
+* {box-sizing: border-box;
+    list-style:none;
+    text-decoration:none;
+}
+
+html {scroll-behavior: smooth;}
+
+.body {
+    margin: 0;
+    background-color: rgb(59, 59, 59);  
+}
+
+.header {
+    background-color: rgb(240,174,18); 
+}
+
+.header-container {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1000px;
+}
+
+.header-title {
+    margin: 0px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.burger-menu-button {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/burger-icon.svg);
+    background-repeat: no-repeat;
+    display: none;
+    
+}
+
+.burger-menu-button:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(267deg) brightness(102%) contrast(106%);
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px; 
+    margin: 0px;
+}
+
+@media (max-width: 700px){
+    .header-menu{display:none;}
+    .show{
+        display: block;
+    }
+      .burger-menu-button {
+        cursor: pointer;
+        display: block;
+        transition: 0.5s;
+        }       
+}
+
+.header-menu li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 5px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: floralwhite;
+}
+
+.section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-container {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: floralwhite;
+    box-shadow: 0px 0px 10px 5px rgba(240, 174, 18, 0.2);
+}
+
+.section-contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-projects-containers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projects-description {
+    width: 300px;
+}
+.projects-title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(240,174,18);
+    text-align: center;
+}
+
+.projects-ref {
+    display: flex;
+    align-items: center;
+}
+
+.projects-img {
+    width: 250px;
+}
+
+.technologies-list {
+    padding: 0;
+}
+
+.technologies-list li {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    margin-right: 150px;
+}
+
+.main-photo {
+    display: block;
+    width: 250px;
+}
+
+.contacts-container {
+    margin: auto 0;
+}
+
+.contacts-title {
+    margin: 0;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+    border-bottom: 1px solid rgb(240,174,18);
+}
+
+.contacts-list {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.contacts-list li {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.fa { color: rgb(240,174,18); }
+
+.contacts-link {
+    color: black;
+    text-decoration: none;
+}
+
+.section-title {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(240,174,18);
+    text-align: center;
+}
+
+.section-text {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.section-list {
+    margin: 16px 0px;
+    padding: 0px 15px;
+    list-style: none;
+}
+
+.section-list li {
+    color: rgb(240,174,18);
+}
+
+.text {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.code { margin: 0px; }
+
+.section-code {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+@media (max-width: 600px){
+    .section-code { font-size: 14px; }
+    .section-container-code { padding: 0; }
+}
+
+@media (max-width: 480px){
+    .section-code { font-size: 12px; }
+}
+
+@media (max-width: 425px){
+    .section-code { font-size: 10px; }
+}
+
+@media (max-width: 370px){
+    .section-code { font-size: 8px; }
+}
+
+.footer {
+    background-color: rgb(240,174,18);
+}
+
+.footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 30px 0;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+  
+  .footer-menu li {
+      display: inline;
+      font-family: Arial, Helvetica, sans-serif;  
+      letter-spacing: 1px;
+}
+  
+  .git-logo {
+      width: 44px;
+      height: auto;
+}
+  
+  .rs-logo {
+      width: 64px;
+      height: auto;
+}
